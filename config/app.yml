@@ -1,0 +1,14 @@
+server:
+  port: 7623
+session:
+  name: mySession
+  key: ashdu123iou32
+  maxAge: 3600
+#数据库配置  
+database:
+  type: mysql 
+  user: root 
+  password: a1334875424
+  host: 150.109.107.195 
+  port: 3306
+  dbName: test

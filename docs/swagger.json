@@ -1,0 +1,120 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample server celler server.",
+        "title": "Swagger Example API",
+        "termsOfService": "https://www.topgoer.com",
+        "contact": {
+            "name": "www.topgoer.com",
+            "url": "https://www.topgoer.com",
+            "email": "me@razeen.me"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "paths": {
+        "/user/captcha": {
+            "get": {
+                "tags": [
+                    "用户"
+                ],
+                "summary": "获取验证码",
+                "responses": {
+                    "200": {}
+                }
+            }
+        },
+        "/user/captchaVerify": {
+            "get": {
+                "tags": [
+                    "用户"
+                ],
+                "summary": "验证码验证",
+                "parameters": [
+                    {
+                        "type": "number",
+                        "description": "验证值",
+                        "name": "value",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {}
+                }
+            }
+        },
+        "/user/get": {
+            "post": {
+                "consumes": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户"
+                ],
+                "summary": "获取用户信息",
+                "parameters": [
+                    {
+                        "description": "--",
+                        "name": "info",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/controller.userDTO"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {}
+                }
+            }
+        },
+        "/user/login": {
+            "get": {
+                "tags": [
+                    "用户"
+                ],
+                "summary": "设置jwt",
+                "responses": {
+                    "200": {}
+                }
+            }
+        },
+        "/user/test": {
+            "get": {
+                "consumes": [
+                    "multipart/form-data"
+                ],
+                "tags": [
+                    "用户"
+                ],
+                "summary": "测试接口",
+                "responses": {
+                    "200": {}
+                }
+            }
+        }
+    },
+    "definitions": {
+        "controller.userDTO": {
+            "type": "object",
+            "required": [
+                "name",
+                "password"
+            ],
+            "properties": {
+                "name": {
+                    "description": "名称",
+                    "type": "string"
+                },
+                "password": {
+                    "description": "密码",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

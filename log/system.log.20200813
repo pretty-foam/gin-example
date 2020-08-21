@@ -1,0 +1,15 @@
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/13 - 16:12:30 |[97;42m 200 [0m|   17.432743ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/index.html"
+[GIN] 2020/08/13 - 16:12:30 |[97;42m 200 [0m|    2.984736ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/swagger-ui.css"
+[GIN] 2020/08/13 - 16:12:30 |[97;42m 200 [0m|    1.644304ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2020/08/13 - 16:12:30 |[97;42m 200 [0m|   34.304505ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/swagger-ui-bundle.js"
+[GIN] 2020/08/13 - 16:12:31 |[97;42m 200 [0m|    1.067353ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/doc.json"
+[GIN] 2020/08/13 - 16:12:31 |[97;42m 200 [0m|    7.445169ms | 192.168.177.153 |[97;44m GET     [0m "/swagger/favicon-32x32.png"

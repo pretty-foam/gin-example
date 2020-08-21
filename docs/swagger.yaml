@@ -1,0 +1,79 @@
+definitions:
+  controller.userDTO:
+    properties:
+      name:
+        description: 名称
+        type: string
+      password:
+        description: 密码
+        type: string
+    required:
+    - name
+    - password
+    type: object
+info:
+  contact:
+    email: me@razeen.me
+    name: www.topgoer.com
+    url: https://www.topgoer.com
+  description: This is a sample server celler server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: https://www.topgoer.com
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /user/captcha:
+    get:
+      responses:
+        "200": {}
+      summary: 获取验证码
+      tags:
+      - 用户
+  /user/captchaVerify:
+    get:
+      parameters:
+      - description: 验证值
+        in: query
+        name: value
+        required: true
+        type: number
+      responses:
+        "200": {}
+      summary: 验证码验证
+      tags:
+      - 用户
+  /user/get:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: --
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/controller.userDTO'
+      responses:
+        "200": {}
+      summary: 获取用户信息
+      tags:
+      - 用户
+  /user/login:
+    get:
+      responses:
+        "200": {}
+      summary: 设置jwt
+      tags:
+      - 用户
+  /user/test:
+    get:
+      consumes:
+      - multipart/form-data
+      responses:
+        "200": {}
+      summary: 测试接口
+      tags:
+      - 用户
+swagger: "2.0"

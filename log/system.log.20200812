@@ -1,0 +1,467 @@
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 10:19:20 |[90;43m 404 [0m|      12.439µs | 192.168.177.153 |[97;44m GET     [0m "/"
+[GIN] 2020/08/12 - 10:19:20 |[90;43m 404 [0m|       7.278µs | 192.168.177.153 |[97;44m GET     [0m "/favicon.ico"
+[GIN] 2020/08/12 - 10:19:41 |[90;47m 301 [0m|    1.981769ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/index.html"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|    7.138394ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|   13.602334ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|      157.99µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|    6.094874ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|     667.338µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|     306.879µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|     134.865µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:19:41 |[97;42m 200 [0m|     125.855µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:19:46 |[97;42m 200 [0m|      225.12µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:19:46 |[97;42m 200 [0m|    9.541676ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:19:47 |[97;42m 200 [0m|     113.088µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:19:47 |[97;42m 200 [0m|     373.014µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:19:47 |[97;42m 200 [0m|    1.952646ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:19:47 |[97;42m 200 [0m|   13.388275ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:19:47 |[97;42m 200 [0m|     104.817µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|      250.52µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|    8.991152ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|     127.185µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|     362.693µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|     333.229µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:21:42 |[97;42m 200 [0m|     6.14709ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:21:43 |[97;42m 200 [0m|     149.026µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:21:47 |[97;42m 200 [0m|     164.583µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:21:47 |[97;42m 200 [0m|   16.463241ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:21:47 |[97;42m 200 [0m|     116.131µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:21:48 |[97;42m 200 [0m|     271.542µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:21:48 |[97;42m 200 [0m|     241.834µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:21:48 |[97;42m 200 [0m|   24.465298ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:21:48 |[97;42m 200 [0m|     189.889µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|     162.383µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|   11.348403ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|      111.41µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|    6.916232ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|      277.48µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|     249.897µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:22:01 |[97;42m 200 [0m|      152.83µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|     139.698µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|    13.56633ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|     172.821µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|    6.623332ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|     317.388µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:24:37 |[97;42m 200 [0m|     235.398µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:24:38 |[97;42m 200 [0m|     178.152µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|     194.277µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|   11.066735ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|     133.668µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|     326.708µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|     239.273µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|   11.414987ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:28:33 |[97;42m 200 [0m|      95.148µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 10:34:53 |[97;42m 200 [0m|    6.502833ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:34:53 |[97;42m 200 [0m|      88.851µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|      175.33µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     125.584µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     147.094µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|      86.212µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     117.351µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     121.075µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     140.387µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:34:59 |[97;42m 200 [0m|     117.888µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|     147.578µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|     126.192µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|     150.208µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|     202.674µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|     164.406µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:35:00 |[97;42m 200 [0m|      105.41µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 10:35:16 |[97;42m 200 [0m|    3.664827ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 10:35:16 |[97;42m 200 [0m|   11.209113ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 10:35:17 |[97;42m 200 [0m|     146.129µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 10:35:17 |[97;42m 200 [0m|    5.418052ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN] 2020/08/12 - 10:35:17 |[97;42m 200 [0m|     402.484µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 10:35:17 |[97;42m 200 [0m|     278.313µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 10:35:17 |[97;42m 200 [0m|     121.396µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/favicon.png"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 18:51:31 |[90;43m 404 [0m|       13.52µs | 192.168.177.153 |[97;44m GET     [0m "/"
+[GIN] 2020/08/12 - 18:51:31 |[90;43m 404 [0m|       9.648µs | 192.168.177.153 |[97;44m GET     [0m "/favicon.ico"
+[GIN-debug] redirecting request 301: /public/ --> /public/
+[GIN] 2020/08/12 - 18:51:37 |[97;42m 200 [0m|    6.091729ms | 192.168.177.153 |[97;44m GET     [0m "/public/"
+[GIN] 2020/08/12 - 18:51:37 |[97;42m 200 [0m|    2.279436ms | 192.168.177.153 |[97;44m GET     [0m "/public/js/main.js"
+[GIN] 2020/08/12 - 18:51:38 |[90;43m 404 [0m|      54.024µs | 192.168.177.153 |[97;44m GET     [0m "/public/undefined"
+[GIN] 2020/08/12 - 18:51:38 |[90;43m 404 [0m|      21.814µs | 192.168.177.153 |[97;44m GET     [0m "/public/undefined"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|     200.022µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|   22.332507ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|    2.001578ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/FontManifest.json"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|    4.491286ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/fonts/MaterialIcons-Regular.ttf"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|    2.586287ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"
+[GIN] 2020/08/12 - 18:52:01 |[97;42m 200 [0m|    16.07059ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/main.dart.js.map"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 18:52:11 |[97;42m 200 [0m|    5.990394ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 18:53:52 |[97;42m 200 [0m|    6.727223ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:53:58 |[97;42m 200 [0m|     152.542µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:54:03 |[97;42m 200 [0m|      192.88µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN] 2020/08/12 - 18:55:53 |[97;42m 200 [0m|    5.847744ms | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:58:31 |[97;42m 200 [0m|     139.218µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:58:32 |[97;42m 200 [0m|     152.751µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:58:32 |[97;42m 200 [0m|     138.339µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN] 2020/08/12 - 18:58:33 |[97;42m 200 [0m|     125.381µs | 192.168.177.153 |[97;44m GET     [0m "/public/web/"
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
+[GIN-debug] POST   /api/user/get             --> test/controller.(*User).Get-fm (4 handlers)
+[GIN-debug] GET    /api/user/captcha         --> test/controller.(*User).Captcha-fm (4 handlers)
+[GIN-debug] GET    /api/user/captchaVerify   --> test/controller.(*User).CaptchaVerify-fm (4 handlers)
+[GIN-debug] GET    /api/user/login           --> test/controller.(*User).Setjwt-fm (4 handlers)
+[GIN-debug] GET    /api/user/test            --> test/controller.(*User).Test-fm (4 handlers)
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.177.153:7623
